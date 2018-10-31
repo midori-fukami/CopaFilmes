@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieTournament.Api", "MovieTournament.Api\MovieTournament.Api.csproj", "{EB2C8629-F11E-493C-A930-71DFA8738EC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieTournament.Api.Test", "MovieTournament.Api.Test\MovieTournament.Api.Test.csproj", "{8F43A697-2851-45FF-8520-47B2CC51A98F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB2C8629-F11E-493C-A930-71DFA8738EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2C8629-F11E-493C-A930-71DFA8738EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2C8629-F11E-493C-A930-71DFA8738EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2C8629-F11E-493C-A930-71DFA8738EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F43A697-2851-45FF-8520-47B2CC51A98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F43A697-2851-45FF-8520-47B2CC51A98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F43A697-2851-45FF-8520-47B2CC51A98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F43A697-2851-45FF-8520-47B2CC51A98F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2832A54F-7C0E-41CF-81AD-E25101F1A44E}
+	EndGlobalSection
+EndGlobal
