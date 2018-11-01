@@ -1,0 +1,24 @@
+﻿@{
+    var list = ViewData["winners"];
+    Layout = "_Layout";
+}
+@section Styles{
+    <link href="~/css/movie/winners.css" rel="stylesheet" />
+}
+@section Scripts{
+    <script src="~/js/movie/winners.js"></script>
+}
+    <div class="container-winners">
+        <div class="row">
+            <div class="col-md-1 classif">1º</div>
+            <div class="col-md-11 movie">
+                <span id="first">Primeiro colocado</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1 classif">2º</div>
+            <div class="col-md-11 movie">
+                <span id="second">Segundo colocado</span>
+            </div>
+        </div>
+    </div>

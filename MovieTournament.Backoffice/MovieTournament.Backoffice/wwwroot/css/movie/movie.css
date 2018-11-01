@@ -1,15 +1,58 @@
-﻿.panel-title {
-    background-color: #565656;
-    color: #fff;
-    text-align: center;
-    padding: 50px 250px;
+﻿.container-selections {
+    margin-right: 15px;
+    margin-left: 15px;
+    box-shadow: none;
 }
 
-    .panel-title .copa {
-        text-transform: uppercase;
-        color: #d4d4d4;
+    .container-selections .row.config {
+        padding: 20px 0;
     }
 
-    .panel-title hr {
-        width: 3%;
+    .container-selections .div-btn {
+        padding: 15px 35px;
+        background-color: #272727;
+        cursor: pointer;
     }
+
+        .container-selections .div-btn:hover {
+            background-color: #272727d6;
+        }
+
+        .container-selections .div-btn #btnSubmit {
+            color: #fff;
+            font-size: 11pt;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+.p-15 {
+    padding: 5px;
+}
+
+.panel-check {
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+
+    .panel-check input[type=checkbox] {
+        margin: 0;
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+        background-color: #fff;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        border: 1px solid #808080;
+    }
+
+    .panel-check input[type="checkbox"]:checked {
+        background: #2aa1c0;
+    }
+
+.selection-text {
+    color: #fff;
+    font-size: 15pt;
+}

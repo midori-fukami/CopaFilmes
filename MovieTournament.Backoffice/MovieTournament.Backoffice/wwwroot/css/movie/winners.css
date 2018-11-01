@@ -1,0 +1,23 @@
+﻿.container-winners {
+    padding: 25px 15px;
+}
+
+    .container-winners .row {
+        padding: 10px 0;
+    }
+
+.classif {
+    color: #fff;
+    font-size: 40pt;
+    background-color: #696969;
+    height: 80px;
+}
+
+.movie {
+    color: #696969;
+    background-color: #fff;
+    font-size: 14pt;
+    height: 80px;
+    display: inline-block;
+    padding: 27px 20px;
+}

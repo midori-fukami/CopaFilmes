@@ -3,6 +3,7 @@ for details on configuring this project to bundle and minify static web assets. 
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #c3c3c3;
 }
 
 /* Wrapping element */
@@ -12,26 +13,23 @@ body {
     padding-right: 15px;
 }
 
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
+/* panel title */
+.panel-title {
+    background-color: #696969;
+    color: #fff;
+    text-align: center;
+    padding: 50px 250px;
 }
 
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
-}
-
-/* QR code generator */
-#qrCode {
-    margin: 15px;
-}
-
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
+    .panel-title .copa {
+        text-transform: uppercase;
+        color: #d4d4d4;
     }
-}
+
+    .panel-title .title, .panel-title .sub-title {
+        font-weight: 600;
+    }
+
+    .panel-title hr {
+        width: 3%;
+    }

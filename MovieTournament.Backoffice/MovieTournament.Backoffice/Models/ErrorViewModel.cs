@@ -1,5 +1,3 @@
-using System;
-
 namespace MovieTournament.Backoffice.Models
 {
     public class ErrorViewModel

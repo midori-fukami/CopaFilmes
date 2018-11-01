@@ -30,18 +30,32 @@
                 </div>
             </div>
             <div class="row">
-                <h3><b>@ViewData["Title"]</b></h3>
+                <h3 class="title">@ViewData["Title"]</h3>
             </div>
             <hr />
             <div class="row">
-            <h6 class="sub-title"><b>@ViewData["SubTitle"]</b></h6>
-        </div>
+                <h5 class="sub-title">@ViewData["SubTitle"]</h5>
+            </div>
         </div>
 
         @RenderBody()
-        
+
     </div>
 
+    <div class="modal fade modal-ok" tabindex="-1" role="dialog" aria-labelledby="dialogOk">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/knockoutjs/knockout-3.4.2.js"></script>
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
@@ -60,6 +74,7 @@
                 crossorigin="anonymous"
                 integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
         </script>
+
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
 

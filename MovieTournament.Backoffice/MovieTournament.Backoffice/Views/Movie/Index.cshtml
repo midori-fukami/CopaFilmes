@@ -1,5 +1,4 @@
 ﻿@{
-    ViewData["Title"] = ViewData["Title"];
     Layout = "_Layout";
 }
 @section Styles{
@@ -8,3 +7,33 @@
 @section Scripts{
     <script src="~/js/movie/movie.js"></script>
 }
+<div class="container-selections">
+    <div class="row config">
+        <div class="col-md pull-left selection-text">
+            Selecionados
+            <br />
+            <span class="selected-movies" data-bind="text : Count"></span> de 8 filmes
+        </div>
+        <div class="col-md pull-right div-btn">
+            <a id="btnSubmit" data-bind="click: GoToTournamentCommand">Gerar Meu Campeonato</a>
+        </div>
+    </div>
+    <div class="row" data-bind="foreach: { data: Movies, as: 'movie'}">
+        <div class="col-md-3 p-15">
+            <label class="form-check-label panel-check" data-bind="checkboxLabelText: Title">
+                <div class="row">
+                    <div class="col-md-2">
+                        <input type="checkbox" class="form-check-input" data-bind="checkedValue: movie.id, attr: { id: id },  checked: $root.selectedMovies, click: $root.checkMovie" />
+                    </div>
+
+                    <div class="col-md-10">
+                        <span data-bind="text: movie.title"></span>
+                        <br />
+                        <span data-bind="text: year"></span>
+                    </div>
+                </div>
+            </label>
+            <br />
+        </div>
+    </div>
+</div>
