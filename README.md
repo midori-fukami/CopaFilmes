@@ -9,4 +9,4 @@ Projeto utilizando aspnet core 2, na controller de filmes (MovieController) pega
 Nos testes é utilizado NUnit em que testa os dados vindos da api e resultados previstos.
 
 ## Executar os projetos
-Rodar os projetos dotnet core;
+Rodar os projetos dotnet core.
